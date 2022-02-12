@@ -57,3 +57,8 @@ Circle.apply({}, [1, 2, 3]);
 // Value Types - Number, String, Boolean, Symbol, undefined and null
 
 // Reference Types - Object, Function, Array
+
+let x = { value: 10 };
+let y = x;
+
+x.value = 20;
